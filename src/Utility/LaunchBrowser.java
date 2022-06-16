@@ -19,9 +19,8 @@ public class LaunchBrowser {
 		
 		//saying to browser that get the mention website
 		driver.get("http://www.leafground.com/");
-		
-		
 		driver.findElement(By.xpath("//*[@id=\'post-153\']/div[2]/div/ul/li[1]/a/img")).click();
+		
 		
 		WebElement emailbox=driver.findElement(By.id("email"));
 		emailbox.sendKeys("ss@gmail.com");
@@ -36,6 +35,9 @@ public class LaunchBrowser {
 		WebElement clearbox=driver.findElement(By.xpath("//*[@id=\'contentblock\']/section/div[4]/div/div/input"));
 		clearbox.clear();
 		
+		WebElement disabledbox= driver.findElement(By.xpath("//*[@id=\'contentblock\']/section/div[5]/div/div/input"));
+		boolean enabled=disabledbox.isEnabled();
+		System.out.println(enabled);
 		
 
 	}
