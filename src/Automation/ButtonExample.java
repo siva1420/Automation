@@ -11,7 +11,7 @@ import com.sun.jna.platform.win32.WinDef.POINT;
 
 public class ButtonExample {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
 
