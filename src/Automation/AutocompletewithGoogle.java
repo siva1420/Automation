@@ -34,10 +34,19 @@ public class AutocompletewithGoogle {
 				break;
 			}
 			
-			List<WebElement> selectoption= driver.findElements(By.xpath("//*[@id=\"rso\"]/div"));
+			List<WebElement> selectoption= driver.findElements(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div/div/div/div/div[1]/a/div/cite"));
 			
-	
-			selectoption.get(0).click();
+			
+			
+		for (WebElement webElement2 : selectoption) {
+			
+			if(webElement2.getText().equals("https://www.youtube.com")) {
+				webElement2.click();
+				break;
+			}
+			
+		}
+		
 	 
 		}
 		
