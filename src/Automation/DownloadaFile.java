@@ -17,6 +17,7 @@ public class DownloadaFile {
 		WebElement Downloadexcelfile=driver.findElement(By.linkText("Download Excel"));
 		Downloadexcelfile.click();
 		
+		
 	}
 
 }
