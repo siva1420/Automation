@@ -1,33 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39" started-at="2022-06-28T09:22:48Z" finished-at="2022-06-28T09:22:48Z">
+  <suite name="Tet Suite" duration-ms="105" started-at="2022-06-28T11:35:11Z" finished-at="2022-06-28T11:35:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39" started-at="2022-06-28T09:22:48Z" finished-at="2022-06-28T09:22:48Z">
-      <class name="testNG.SimpleTestCaseWithPriority">
-        <test-method status="PASS" signature="Firsttestcase()[pri:0, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Firsttestcase" duration-ms="11" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+    <test name="Test Case" duration-ms="105" started-at="2022-06-28T11:35:11Z" finished-at="2022-06-28T11:35:11Z">
+      <class name="testNG.SkipATestcase">
+        <test-method status="PASS" signature="Firsttestcase()[pri:0, instance:testNG.SkipATestcase@64c64813]" name="Firsttestcase" duration-ms="1" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Firsttestcase -->
-        <test-method status="PASS" signature="Secondtestcase()[pri:1, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Secondtestcase" duration-ms="1" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+        <test-method status="PASS" signature="Secondtestcase()[pri:1, instance:testNG.SkipATestcase@64c64813]" name="Secondtestcase" duration-ms="1" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Secondtestcase -->
-        <test-method status="PASS" signature="Thirdtestcase()[pri:2, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Thirdtestcase" duration-ms="2" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Thirdtestcase -->
-        <test-method status="PASS" signature="Fourthtestcase()[pri:3, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Fourthtestcase" duration-ms="1" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+        <test-method status="PASS" signature="Fourthtestcase()[pri:3, instance:testNG.SkipATestcase@64c64813]" name="Fourthtestcase" duration-ms="4" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fourthtestcase -->
-        <test-method status="PASS" signature="Fifthtestcase()[pri:4, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Fifthtestcase" duration-ms="1" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+        <test-method status="PASS" signature="Fifthtestcase()[pri:4, instance:testNG.SkipATestcase@64c64813]" name="Fifthtestcase" duration-ms="0" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fifthtestcase -->
+      </class> <!-- testNG.SkipATestcase -->
+      <class name="testNG.DependanciesManagement">
+        <test-method status="PASS" signature="highschool()[pri:0, instance:testNG.DependanciesManagement@50cbc42f]" name="highschool" duration-ms="17" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highschool -->
+        <test-method status="PASS" signature="highersecondary()[pri:0, instance:testNG.DependanciesManagement@50cbc42f]" name="highersecondary" duration-ms="1" started-at="2022-06-28T17:05:11Z" depends-on-methods="testNG.DependanciesManagement.highschool" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highersecondary -->
+        <test-method status="PASS" signature="engineering()[pri:0, instance:testNG.DependanciesManagement@50cbc42f]" name="engineering" duration-ms="6" started-at="2022-06-28T17:05:11Z" depends-on-methods="testNG.DependanciesManagement.highersecondary" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineering -->
+      </class> <!-- testNG.DependanciesManagement -->
+      <class name="testNG.SimpleTestCase">
+        <test-method status="PASS" signature="Fifthtestcase()[pri:0, instance:testNG.SimpleTestCase@f5f2bb7]" name="Fifthtestcase" duration-ms="2" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fifthtestcase -->
+        <test-method status="PASS" signature="Firsttestcase()[pri:0, instance:testNG.SimpleTestCase@f5f2bb7]" name="Firsttestcase" duration-ms="2" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firsttestcase -->
+        <test-method status="PASS" signature="Fourthtestcase()[pri:0, instance:testNG.SimpleTestCase@f5f2bb7]" name="Fourthtestcase" duration-ms="1" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fourthtestcase -->
+        <test-method status="PASS" signature="Secondtestcase()[pri:0, instance:testNG.SimpleTestCase@f5f2bb7]" name="Secondtestcase" duration-ms="1" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Secondtestcase -->
+        <test-method status="PASS" signature="Thirdtestcase()[pri:0, instance:testNG.SimpleTestCase@f5f2bb7]" name="Thirdtestcase" duration-ms="4" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thirdtestcase -->
+      </class> <!-- testNG.SimpleTestCase -->
+      <class name="testNG.SimpleTestCaseWithPriority">
+        <test-method status="PASS" signature="Firsttestcase()[pri:0, instance:testNG.SimpleTestCaseWithPriority@73035e27]" name="Firsttestcase" duration-ms="2" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firsttestcase -->
+        <test-method status="PASS" signature="Secondtestcase()[pri:1, instance:testNG.SimpleTestCaseWithPriority@73035e27]" name="Secondtestcase" duration-ms="2" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Secondtestcase -->
+        <test-method status="PASS" signature="Thirdtestcase()[pri:2, instance:testNG.SimpleTestCaseWithPriority@73035e27]" name="Thirdtestcase" duration-ms="2" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thirdtestcase -->
+        <test-method status="PASS" signature="Fourthtestcase()[pri:3, instance:testNG.SimpleTestCaseWithPriority@73035e27]" name="Fourthtestcase" duration-ms="1" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fourthtestcase -->
+        <test-method status="PASS" signature="Fifthtestcase()[pri:4, instance:testNG.SimpleTestCaseWithPriority@73035e27]" name="Fifthtestcase" duration-ms="4" started-at="2022-06-28T17:05:11Z" finished-at="2022-06-28T17:05:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fifthtestcase -->
       </class> <!-- testNG.SimpleTestCaseWithPriority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test Case -->
+  </suite> <!-- Tet Suite -->
 </testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tet Suite">
+<test name="Test Case">
+<classes>
+<class name="testNG.DependanciesManagement"></class>
+<class name="testNG.SimpleTestCase"></class>
+<class name="testNG.SimpleTestCaseWithPriority"></class>
+<class name="testNG.SkipATestcase"></class>
+</classes>
+</test>
+</suite>
