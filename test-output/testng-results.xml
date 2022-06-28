@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39" started-at="2022-06-28T09:22:48Z" finished-at="2022-06-28T09:22:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39" started-at="2022-06-28T09:22:48Z" finished-at="2022-06-28T09:22:48Z">
+      <class name="testNG.SimpleTestCaseWithPriority">
+        <test-method status="PASS" signature="Firsttestcase()[pri:0, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Firsttestcase" duration-ms="11" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firsttestcase -->
+        <test-method status="PASS" signature="Secondtestcase()[pri:1, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Secondtestcase" duration-ms="1" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Secondtestcase -->
+        <test-method status="PASS" signature="Thirdtestcase()[pri:2, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Thirdtestcase" duration-ms="2" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thirdtestcase -->
+        <test-method status="PASS" signature="Fourthtestcase()[pri:3, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Fourthtestcase" duration-ms="1" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fourthtestcase -->
+        <test-method status="PASS" signature="Fifthtestcase()[pri:4, instance:testNG.SimpleTestCaseWithPriority@387c703b]" name="Fifthtestcase" duration-ms="1" started-at="2022-06-28T14:52:48Z" finished-at="2022-06-28T14:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fifthtestcase -->
+      </class> <!-- testNG.SimpleTestCaseWithPriority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
