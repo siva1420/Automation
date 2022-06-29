@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19" started-at="2022-06-29T10:44:08Z" finished-at="2022-06-29T10:44:08Z">
+  <suite name="Tet Suite" duration-ms="38" started-at="2022-06-29T11:26:49Z" finished-at="2022-06-29T11:26:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19" started-at="2022-06-29T10:44:08Z" finished-at="2022-06-29T10:44:08Z">
-      <class name="testNG.AnnotationExample">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
+    <test name="Test Case" duration-ms="38" started-at="2022-06-29T11:26:49Z" finished-at="2022-06-29T11:26:50Z">
+      <class name="testNG.SimpleTestCase">
+        <test-method status="PASS" signature="Fifthtestcase()[pri:0, instance:testNG.SimpleTestCase@13b6d03]" name="Fifthtestcase" duration-ms="10" started-at="2022-06-29T16:56:49Z" finished-at="2022-06-29T16:56:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
+        </test-method> <!-- Fifthtestcase -->
+        <test-method status="PASS" signature="Firsttestcase()[pri:0, instance:testNG.SimpleTestCase@13b6d03]" name="Firsttestcase" duration-ms="2" started-at="2022-06-29T16:56:49Z" finished-at="2022-06-29T16:56:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
+        </test-method> <!-- Firsttestcase -->
+        <test-method status="PASS" signature="Fourthtestcase()[pri:0, instance:testNG.SimpleTestCase@13b6d03]" name="Fourthtestcase" duration-ms="2" started-at="2022-06-29T16:56:49Z" finished-at="2022-06-29T16:56:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
+        </test-method> <!-- Fourthtestcase -->
+        <test-method status="PASS" signature="Secondtestcase()[pri:0, instance:testNG.SimpleTestCase@13b6d03]" name="Secondtestcase" duration-ms="1" started-at="2022-06-29T16:56:49Z" finished-at="2022-06-29T16:56:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="test" duration-ms="5" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
+        </test-method> <!-- Secondtestcase -->
+        <test-method status="PASS" signature="Thirdtestcase()[pri:0, instance:testNG.SimpleTestCase@13b6d03]" name="Thirdtestcase" duration-ms="0" started-at="2022-06-29T16:56:49Z" finished-at="2022-06-29T16:56:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNG.AnnotationExample@21a06946]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-06-29T16:14:08Z" finished-at="2022-06-29T16:14:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testNG.AnnotationExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Thirdtestcase -->
+      </class> <!-- testNG.SimpleTestCase -->
+    </test> <!-- Test Case -->
+  </suite> <!-- Tet Suite -->
 </testng-results>
