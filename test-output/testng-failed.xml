@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Tet Suite]">
-  <test name="Test Case">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="testNG.DependanciesManagement"/>
-      <class name="testNG.SimpleTestCase"/>
-      <class name="testNG.SimpleTestCaseWithPriority"/>
-      <class name="testNG.SkipATestcase"/>
+      <class name="testNG.AnnotationExample"/>
     </classes>
-  </test> <!-- Test Case -->
-</suite> <!-- Failed suite [Tet Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
