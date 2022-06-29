@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Tet Suite">
+<suite name="Tet Suite" parallel="methods" thread-count="2">
 <test name="Test Case">
+<parameter name="Name" value="Sivathanu Soundararajan"></parameter>
 <classes>
-<class name="testNG.DependanciesManagement"></class>
-<class name="testNG.SimpleTestCase"></class>
-<class name="testNG.SimpleTestCaseWithPriority"></class>
-<class name="testNG.SkipATestcase"></class>
+<class name="testNG.ParallelExample"></class>
 </classes>
 </test>
 </suite>
+
+
+
+<!-- <class name="testNG.DependanciesManagement"></class>
+<class name="testNG.SimpleTestCase"></class>
+<class name="testNG.SimpleTestCaseWithPriority"></class>
+<class name="testNG.SkipATestcase"></class> -->
