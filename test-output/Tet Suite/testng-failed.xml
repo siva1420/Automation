@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Tet Suite]" parallel="methods">
-  <parameter name="Name" value="Sivathanu Soundararajan"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tet Suite]">
+  <listeners>
+    <listener class-name="testNG.ListenersExample"/>
+  </listeners>
   <test name="Test Case">
-    <parameter name="Name" value="Sivathanu Soundararajan"/>
     <classes>
-      <class name="testNG.ParallelExample"/>
+      <class name="testNG.SimpleTestCase"/>
     </classes>
   </test> <!-- Test Case -->
 </suite> <!-- Failed suite [Tet Suite] -->
