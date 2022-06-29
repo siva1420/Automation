@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Tet Suite" parallel="methods" thread-count="2">
+<suite name="Tet Suite">
+<listeners>
+<listener class-name="testNG.ListenersExample"></listener>
+</listeners>
 <test name="Test Case">
-<parameter name="Name" value="Sivathanu Soundararajan"></parameter>
 <classes>
-<class name="testNG.ParallelExample"></class>
+<class name="testNG.SimpleTestCase"></class>
 </classes>
 </test>
 </suite>
